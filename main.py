@@ -10,7 +10,7 @@ mongo = Mongo()
 helpers = Helpers()
 classifier = ImageClassifier()
 
-classifier.train_model(0.15, 96024, "C:\\Users\\Carter\\git\\Capstone\\data", 5, 15, 'product_classifier.keras')
+classifier.train_model(0.15, 96024, "C:\\Users\\Carter\\git\\Capstone\\data", 5, 50, 'product_classifier.keras')
 
 # classes = ['apples', 'bananas', 'avocados', 'red-bell-peppers', 'oranges']
 # filepath_to_image = f"{os.getcwd()}\\test_images\\peaches.jpg"

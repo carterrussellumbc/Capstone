@@ -44,7 +44,7 @@ class ImageClassifier:
           tf.keras.layers.Dense(num_classes)
         ])
 
-        tf.keras.optimizers.Adam.learning_rate = 0.0001
+        tf.keras.optimizers.Adam.learning_rate = 0.00005
 
         model.compile(
           optimizer='adam',
